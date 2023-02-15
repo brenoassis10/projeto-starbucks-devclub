@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+img {
+    width: 80px;
+
+
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caixa-texto {
+    width: 600px;
+
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+
+}
+
+.menu {
+
+    position: relative;
+    position: absolute;
+    top: 72%;
+    right: 35%;
+    width: 120px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.menu1 {
+    position: relative;
+    position: absolute;
+    top: 27%;
+    right: 24%;
+    width: 120px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.menu2 {
+    position: relative;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 120px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.menu3 {
+    position: relative;
+    position: absolute;
+    top: 75%;
+    right: 88%;
+    width: 120px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.menu4 {
+    position: relative;
+    position: absolute;
+    top: 75%;
+    right: 78%;
+    width: 120px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+}
+
+.menu5 {
+    position: relative;
+    position: absolute;
+    top: 75%;
+    right: 68%;
+    width: 120px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+}
+
+
+
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    text-shadow: 10px 10px 8px #017143;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 10px 10px 15px #000000;
+
+}
+
+p {
+    font-size: 20px;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    right: 55%;
+    text-shadow: 10px 10px 23px #017143;
+
+
+
+
+}
+
+button {
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    position: absolute;
+    top: 60%;
+    right: 75%;
+}
+
+
+.logo {
+    position: relative;
+    position: absolute;
+    top: 0%;
+    right: 92%;
+    width: 120px;
+
+}
+
+.starbucks {
+    width: 220px;
+    position: relative;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+
+}
+
+.botao-menu {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+
+.menu:hover {
+    transform: translateY(-25px);
+
+}
+
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}

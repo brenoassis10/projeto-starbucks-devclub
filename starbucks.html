@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@200;300;500;900 & display=swap"
+            rel="stylesheet">
+        <title>StarBucks</title>
+    </head>
+    
+    <body>
+    
+        <div class="circulo"></div>
+    
+    
+        <img src="./image/logo.png" class="logo">
+    
+        <div class="conteudo">
+    
+            <div class="caixa-texto">
+    
+                <h2>fique a vontade parar pedir <br> o seu <span> StarBucks</span></h2>
+                <p>O legado de Starbucks alia-se à experiência de NESCAFÉ Dolce Gusto <br> e
+                    apresenta <br>
+                    esta linha única de cápsulas de café Starbucks®️ para preparar em casa.
+                </p>
+                <div>
+                    <button>clique aqui</button>
+                </div>
+                
+    
+            </div>
+    
+            <div class="caixa-imagem">
+                <img src="./image/img1.png" class="starbucks">
+            </div>
+    
+        </div>
+    
+        <div>
+            <div class="menu"><img src="./image/thumb1.png" class="menu" onclick="trocaimagem('./image/img1.png'); trocaCor('#017143')"></div>
+            <div class="menu1"><img src="./image/thumb2.png" class="menu" onclick="trocaimagem('./image/img2.png'); trocaCor('#eb7495')"></div>
+            <div class="menu2"><img src="./image/thumb3.png" class="menu" onclick="trocaimagem('./image/img3.png'); trocaCor('#d752b1')"></div>
+            <div class="menu3"><img src="./image/thumb6.png" class="menu" onclick="trocaimagem('./image/img6.png'); trocaCor('#624C4F')"></div>
+            <div class="menu4"><img src="./image/thumb7.png" class="menu" onclick="trocaimagem('./image/img7.png'); trocaCor('#B6C5BE')"></div>
+            <div class="menu5"><img src="./image/thumb9.png" class="menu" onclick="trocaimagem('./image/img9.png'); trocaCor('#9F5F3A')"></div>
+        </div>
+    </body>
+    <script>
+        let imagem = document.querySelector(".starbucks")
+        let circulo = document.querySelector(".circulo")
+    
+        function trocaimagem(endereco) {
+            imagem.src = endereco
+        }
+    
+    function trocaCor(cor){
+    circulo.style.background = cor
+    
+    }
+
+    
+    </script>
+    
+    </html>
